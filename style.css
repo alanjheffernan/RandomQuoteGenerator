@@ -1,4 +1,7 @@
-*{
+
+
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: 0;
@@ -15,15 +18,14 @@ button {
 }
 
 header {
-   
     height: 10vh;
     display: flex;
     align-items: center;
 }
 
 .logo {
-   padding: 0px 0px 0px 10px;
-   font-size: 18px;
+    padding: 0px 0px 0px 10px;
+    font-size: 18px;
 }
 
 main {
@@ -39,6 +41,11 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    height: 400px;
 }
 
 #quoteText {
@@ -60,6 +67,7 @@ main {
     border-radius: 10px;
     font-size: 19px;
     cursor: pointer;
+    outline: none;
 }
 
 footer {
@@ -78,14 +86,8 @@ footer {
     margin-left: 10px;
 }
 
-
-
 @media screen and (max-width: 640px) {
     body {
-        background-color:rgb(194, 50, 50);
+        background-color: rgb(194, 50, 50);
     }
-
-
-
-
 }
