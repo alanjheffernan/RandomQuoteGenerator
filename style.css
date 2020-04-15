@@ -73,17 +73,37 @@ main {
 footer {
     width: 90%;
     height: 10vh;
+
+}
+
+.footerContainer{
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .gitHub {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    width: 20%;
 }
 
 .gitHubLogo {
-    width: 2%;
+    width: 10%;
     margin-left: 10px;
+}
+
+.gitHubText {
+   text-decoration: none;
+   color: black;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.gitHubText:hover{
+    border-bottom: solid 1px black;
 }
 
 @media screen and (max-width: 640px) {
